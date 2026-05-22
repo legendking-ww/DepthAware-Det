@@ -29,6 +29,17 @@ DepthAware-Det/
 └── requirements.txt
 ```
 
+## 克隆后获取模型（Git 不含大文件）
+
+```bash
+python scripts/download_weights.py
+python scripts/export_onnx.py --all
+python scripts/build_trt.py --all   # 可选，需 TensorRT
+python scripts/check_env.py
+```
+
+权重与 `.onnx` / `.engine` 说明见 `checkpoints/README.md`、`models/README.md`。
+
 ## 1. 环境搭建（Windows + Anaconda）
 
 ```bash
