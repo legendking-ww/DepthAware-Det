@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# 大文件 / 模型权重（请本地 export / build，见 README）
+*.pt
+*.pth
+*.onnx
+*.sim.onnx
+*.engine
+*.plan
+*.trt
+
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/README.md
+checkpoints/.cache/
+
+models/*
+!models/.gitkeep
+!models/README.md
+
+# 官方完整克隆（项目内只需 depth_anything_v2/ 子目录）
+Depth-Anything-V2/
+
+# 数据与输出
+outputs/*
+!outputs/.gitkeep
+data/kitti/*
+!data/.gitkeep
+
+# 本地路径配置（机器相关）
+config/env.ps1
+
+# 媒体
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
