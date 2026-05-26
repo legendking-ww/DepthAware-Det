@@ -4,6 +4,8 @@
 
 支持 **PyTorch / ONNX Runtime / TensorRT** 三种推理后端，提供命令行实时 Demo 与 **Gradio Web 界面**（图片 / 视频 / 摄像头）。
 
+📄 完整项目说明报告见 [`docs/项目报告.md`](docs/项目报告.md)（用途、技术方案、功能列表，适合课程/答辩文档）。
+
 ---
 
 ## 功能特性
